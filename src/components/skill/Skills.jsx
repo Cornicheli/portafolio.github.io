@@ -1,5 +1,21 @@
 import React from "react";
 import "./skills.css";
+import {
+  Html,
+  Css,
+  Javascript,
+  Bootstrap,
+  ReactNative,
+  Redux,
+  Electron,
+  MongoDB,
+  Express,
+  NodeJS,
+  Firebase,
+  GitHub,
+  Postman,
+  styledComponents,
+} from "../../assets/icon";
 
 export default function Skills() {
   return (
@@ -23,11 +39,7 @@ export default function Skills() {
                 <span className="tooltip">HTML</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" alt="html" src={Html} />
                   </i>
                 </span>
               </li>
@@ -36,11 +48,7 @@ export default function Skills() {
                 <span className="tooltip">CSS</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://cdn-icons-png.flaticon.com/512/732/732190.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Css} alt="" />
                   </i>
                 </span>
               </li>
@@ -49,11 +57,7 @@ export default function Skills() {
                 <span className="tooltip">JavaScript</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Javascript} alt="" />
                   </i>
                 </span>
               </li>
@@ -62,11 +66,7 @@ export default function Skills() {
                 <span className="tooltip">Bootstrap</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://cdn-icons-png.flaticon.com/512/5968/5968672.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Bootstrap} alt="" />
                   </i>
                 </span>
               </li>
@@ -77,11 +77,7 @@ export default function Skills() {
                 </span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={ReactNative} alt="" />
                   </i>
                 </span>
               </li>
@@ -90,11 +86,7 @@ export default function Skills() {
                 <span className="tooltip">Redux Toolkit</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Redux} alt="" />
                   </i>
                 </span>
               </li>
@@ -103,11 +95,7 @@ export default function Skills() {
                 <span className="tooltip">Electron Js</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://www.electronjs.org/assets/img/logo.svg"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Electron} alt="" />
                   </i>
                 </span>
               </li>
@@ -129,11 +117,7 @@ export default function Skills() {
                 <span className="tooltip">Mongo DB</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://img.icons8.com/color/512/mongodb.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={MongoDB} alt="" />
                   </i>
                 </span>
               </li>
@@ -142,11 +126,7 @@ export default function Skills() {
                 <span className="tooltip">Express</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://img.icons8.com/ios/512/express-js.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Express} alt="" />
                   </i>
                 </span>
               </li>
@@ -155,11 +135,7 @@ export default function Skills() {
                 <span className="tooltip">Node JS</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://img.icons8.com/color/512/nodejs.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={NodeJS} alt="" />
                   </i>
                 </span>
               </li>
@@ -168,11 +144,7 @@ export default function Skills() {
                 <span className="tooltip">FireBase</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://assets.stickpng.com/thumbs/5847f40ecef1014c0b5e488a.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={Firebase} alt="" />
                   </i>
                 </span>
               </li>
@@ -194,11 +166,7 @@ export default function Skills() {
                 <span className="tooltip">Git Hub</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src="https://cdn-icons-png.flaticon.com/512/3291/3291667.png"
-                      alt=""
-                    />
+                    <img className="icon-skill-card" src={GitHub} alt="" />
                   </i>
                 </span>
               </li>
@@ -207,9 +175,18 @@ export default function Skills() {
                 <span className="tooltip">Postman</span>
                 <span>
                   <i className="ctn-icon-skill-card">
+                    <img className="icon-skill-card" src={Postman} alt="" />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon styled">
+                <span className="tooltip">Styled Components</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
                     <img
                       className="icon-skill-card"
-                      src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png"
+                      src={styledComponents}
                       alt=""
                     />
                   </i>

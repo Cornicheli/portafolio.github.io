@@ -1,4 +1,5 @@
 import React from "react";
+import { LogoContact } from "../../assets/img";
 import "./contact.css";
 
 export default function contact() {
@@ -12,7 +13,7 @@ export default function contact() {
           <div className="ctn-img-contact">
             <img
               className="img-contact"
-              src="https://cdn.discordapp.com/attachments/1063530094053818398/1068373728297222184/rework.png"
+              src={LogoContact}
               alt="figure contact"
             />
           </div>

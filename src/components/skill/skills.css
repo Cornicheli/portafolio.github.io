@@ -244,6 +244,12 @@
   background: #f06732;
   color: #ffffff;
 }
+.wrapper .styled:hover,
+.wrapper .styled:hover .tooltip,
+.wrapper .styled:hover .tooltip::before {
+  background: #e970c7;
+  color: #ffffff;
+}
 
 .title-skill-logo {
   background: linear-gradient(to right, blue, rgb(174, 31, 55));

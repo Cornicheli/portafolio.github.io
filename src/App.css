@@ -10,3 +10,12 @@ a {
 .ancor-youtube:hover {
   color: black;
 }
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;
+  border: solid 2px white;
+  border-radius: 18px;
+}

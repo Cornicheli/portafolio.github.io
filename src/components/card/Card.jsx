@@ -1,10 +1,12 @@
 import React from "react";
 import "./card.css";
-import GameCenter from "../../img/GameCenter.png";
-import MyTinerary from "../../img/MyTinerary.png";
-import GameCenterNative from "../../img/GameCenterNative.png";
-import MyTineraryNative from "../../img/MyTineraryNative.png";
-import MyPorfolioElectron from "../../img/MyPorfolioElectron.png";
+import {
+  GameCenter,
+  MyTinerary,
+  GameCenterNative,
+  MyTineraryNative,
+  MyPorfolioElectron,
+} from "../../assets/img/index";
 
 export default function Card() {
   return (
