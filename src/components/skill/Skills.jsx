@@ -1,6 +1,7 @@
 import React from "react";
 import "./skills.css";
 import {
+  LogoFront,
   Html,
   Css,
   Javascript,
@@ -15,6 +16,8 @@ import {
   GitHub,
   Postman,
   styledComponents,
+  LogoBack,
+  Tools,
 } from "../../assets/icon";
 
 export default function Skills() {
@@ -26,11 +29,7 @@ export default function Skills() {
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
-            <img
-              className="icon-skill"
-              src="https://cdn-icons-png.flaticon.com/512/7838/7838457.png"
-              alt=""
-            />
+            <img className="icon-skill" src={LogoFront} alt="Logo Front-End" />
           </div>
           <h3 className="title-skill-logo">Front End</h3>
           <div className="ctn-skill-card">
@@ -104,11 +103,7 @@ export default function Skills() {
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
-            <img
-              className="icon-skill"
-              src="https://cdn-icons-png.flaticon.com/512/188/188109.png"
-              alt=""
-            />
+            <img className="icon-skill" src={LogoBack} alt="Logo Back-End" />
           </div>
           <h3 className="title-skill-logo">Back End</h3>
           <div className="ctn-skill-card">
@@ -153,11 +148,7 @@ export default function Skills() {
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
-            <img
-              className="icon-skill"
-              src="https://cdn-icons-png.flaticon.com/512/7838/7838542.png"
-              alt=""
-            />
+            <img className="icon-skill" src={Tools} alt="Tools" />
           </div>
           <h3 className="title-skill-logo">Tools</h3>
           <div className="ctn-skill-card">
