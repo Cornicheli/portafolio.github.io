@@ -6,6 +6,8 @@ import GameCenterNative from "./GameCenterNative.png";
 import MyPorfolioElectron from "./MyPorfolioElectron.png";
 import MyTinerary from "./MyTinerary.png";
 import MyTineraryNative from "./MyTineraryNative.png";
+import Touken from "./touken.png";
+import ToukenMobile from "./touken-mobile.jpg";
 
 export {
   BgAboutMe,
@@ -16,4 +18,6 @@ export {
   MyPorfolioElectron,
   MyTinerary,
   MyTineraryNative,
+  Touken,
+  ToukenMobile,
 };
