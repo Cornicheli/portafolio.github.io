@@ -3,6 +3,14 @@
   padding: 0%;
   box-sizing: border-box;
 }
+hr {
+  border-left: thick solid #000;
+  height: 80%;
+  left: 50%;
+  position: absolute;
+  margin-top: 65px;
+}
+
 .ctn-myproyect {
   height: 30vh;
 }

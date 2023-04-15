@@ -1,10 +1,14 @@
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  min-height: 100vh;
+  min-height: 105vh;
+  overflow: hidden;
+}
+
+.main-card-website {
+  margin-left: 15px;
 }
 .title-card {
   color: black;
@@ -15,15 +19,19 @@
 .main-card-native {
   display: flex;
   flex-direction: column;
+  margin-right: 65px;
 }
 .ctn-card-web {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
+  /* width: 68%; */
 }
 .ctn-card-native {
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -82,17 +90,18 @@
 .flip-card-front {
   background: linear-gradient(
     120deg,
-    bisque 60%,
-    rgba(255, 127, 80, 0.603) 48%
+    rgb(251 248 247) 30%,
+    #b6b5b4 89%,
+    rgb(0 0 0) 85%
   );
 }
 
 .flip-card-back {
   background: linear-gradient(
     120deg,
-    rgb(255, 174, 145) 30%,
-    coral 88%,
-    rgb(255, 185, 160) 78%
+    rgb(251 248 247) 30%,
+    #b6b5b4 89%,
+    rgb(0 0 0) 85%
   );
   transform: rotateY(180deg);
 }
@@ -159,17 +168,18 @@
 .native-flip-card-front {
   background: linear-gradient(
     120deg,
-    bisque 60%,
-    rgba(255, 127, 80, 0.603) 48%
+    rgb(251 248 247) 30%,
+    #b6b5b4 89%,
+    rgb(0 0 0) 85%
   );
 }
 
 .native-flip-card-back {
   background: linear-gradient(
     120deg,
-    rgb(255, 174, 145) 30%,
-    coral 88%,
-    rgb(255, 185, 160) 78%
+    rgb(251 248 247) 30%,
+    #b6b5b4 89%,
+    rgb(0 0 0) 85%
   );
   transform: rotateY(180deg);
 }
