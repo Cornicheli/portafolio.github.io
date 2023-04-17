@@ -11,6 +11,12 @@ hr {
   margin-top: 65px;
 }
 
+@media screen and (max-width: 1850px) {
+  hr {
+    display: none;
+  }
+}
+
 .ctn-myproyect {
   height: 30vh;
 }

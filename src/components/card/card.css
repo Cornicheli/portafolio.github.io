@@ -7,6 +7,13 @@
   overflow: hidden;
 }
 
+.ctn-main-card {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .main-card-website {
   margin-left: 15px;
 }
@@ -23,11 +30,9 @@
 }
 .ctn-card-web {
   display: flex;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  /* width: 68%; */
 }
 .ctn-card-native {
   display: flex;
@@ -195,6 +200,16 @@
   border-radius: 1rem;
 }
 
+@media screen and (max-width: 1750px) {
+  .ctn-main-card {
+    justify-content: center;
+  }
+  .main-card-native,
+  .main-card-website {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
 @media screen and (max-width: 480px) {
   .flip-card {
     transition: 1s;
