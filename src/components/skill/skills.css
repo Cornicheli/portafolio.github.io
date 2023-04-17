@@ -283,3 +283,9 @@
 .title-skill-logo:hover::before {
   width: auto;
 }
+
+@media screen and (max-width: 860px) {
+  .title-skill-logo {
+    text-align: center;
+  }
+}

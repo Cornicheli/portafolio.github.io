@@ -15,13 +15,7 @@ export default function Card() {
   return (
     <>
       <div className="container">
-        <div
-          style={{
-            display: "flex",
-            width: "100%",
-            justifyContent: "space-between",
-          }}
-        >
+        <div className="ctn-main-card">
           <div className="main-card-website">
             <h1 className="title-card">Desktop WebSite</h1>
             <div className="ctn-card-web">
