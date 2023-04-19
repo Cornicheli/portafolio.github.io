@@ -1,5 +1,4 @@
 import React from "react";
-import "./card.css";
 import {
   GameCenter,
   MyTinerary,
@@ -10,6 +9,7 @@ import {
   ToukenMobile,
 } from "../../assets/img/index";
 import Slide from "react-reveal/Slide";
+import "./card.css";
 
 export default function Card() {
   return (
