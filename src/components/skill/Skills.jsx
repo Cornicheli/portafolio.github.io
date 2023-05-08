@@ -18,6 +18,8 @@ import {
   styledComponents,
   LogoBack,
   Tools,
+  Npm,
+  Yarn,
 } from "../../assets/icon";
 
 export default function Skills() {
@@ -47,7 +49,7 @@ export default function Skills() {
                 <span className="tooltip">CSS</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Css} alt="" />
+                    <img className="icon-skill-card" src={Css} alt="Css" />
                   </i>
                 </span>
               </li>
@@ -56,7 +58,11 @@ export default function Skills() {
                 <span className="tooltip">JavaScript</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Javascript} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Javascript}
+                      alt="Javascript"
+                    />
                   </i>
                 </span>
               </li>
@@ -65,7 +71,11 @@ export default function Skills() {
                 <span className="tooltip">Bootstrap</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Bootstrap} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Bootstrap}
+                      alt="Bootstrap"
+                    />
                   </i>
                 </span>
               </li>
@@ -76,7 +86,11 @@ export default function Skills() {
                 </span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={ReactNative} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={ReactNative}
+                      alt="ReactNative"
+                    />
                   </i>
                 </span>
               </li>
@@ -85,7 +99,7 @@ export default function Skills() {
                 <span className="tooltip">Redux Toolkit</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Redux} alt="" />
+                    <img className="icon-skill-card" src={Redux} alt="Redux" />
                   </i>
                 </span>
               </li>
@@ -94,7 +108,11 @@ export default function Skills() {
                 <span className="tooltip">Electron Js</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Electron} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Electron}
+                      alt="Electron"
+                    />
                   </i>
                 </span>
               </li>
@@ -112,7 +130,11 @@ export default function Skills() {
                 <span className="tooltip">Mongo DB</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={MongoDB} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={MongoDB}
+                      alt="MongoDB"
+                    />
                   </i>
                 </span>
               </li>
@@ -121,7 +143,11 @@ export default function Skills() {
                 <span className="tooltip">Express</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Express} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Express}
+                      alt="Express"
+                    />
                   </i>
                 </span>
               </li>
@@ -130,7 +156,11 @@ export default function Skills() {
                 <span className="tooltip">Node JS</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={NodeJS} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={NodeJS}
+                      alt="NodeJS"
+                    />
                   </i>
                 </span>
               </li>
@@ -139,7 +169,11 @@ export default function Skills() {
                 <span className="tooltip">FireBase</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Firebase} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Firebase}
+                      alt="Firebase"
+                    />
                   </i>
                 </span>
               </li>
@@ -157,7 +191,29 @@ export default function Skills() {
                 <span className="tooltip">Git Hub</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={GitHub} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={GitHub}
+                      alt="GitHub"
+                    />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon npm">
+                <span className="tooltip">Npm</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img className="icon-skill-card" src={Npm} alt="Npm" />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon yarn">
+                <span className="tooltip">Yarn</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img className="icon-skill-card" src={Yarn} alt="Yarn" />
                   </i>
                 </span>
               </li>
@@ -166,7 +222,11 @@ export default function Skills() {
                 <span className="tooltip">Postman</span>
                 <span>
                   <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Postman} alt="" />
+                    <img
+                      className="icon-skill-card"
+                      src={Postman}
+                      alt="Postman"
+                    />
                   </i>
                 </span>
               </li>
@@ -178,7 +238,7 @@ export default function Skills() {
                     <img
                       className="icon-skill-card"
                       src={styledComponents}
-                      alt=""
+                      alt="Styled Components"
                     />
                   </i>
                 </span>

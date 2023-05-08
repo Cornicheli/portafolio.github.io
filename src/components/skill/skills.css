@@ -73,7 +73,7 @@
   width: 100%;
   background-image: url("https://wallpaper.dog/large/20503233.jpg");
   background-position-x: 500px;
-  background-position-y: -120%;
+  background-position-y: -55%;
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
@@ -235,6 +235,22 @@
 .wrapper .gitHub:hover .tooltip,
 .wrapper .gitHub:hover .tooltip::before {
   background: #000000;
+  color: #ffffff;
+  border: solid 1px white;
+}
+
+.wrapper .npm:hover,
+.wrapper .npm:hover .tooltip,
+.wrapper .npm:hover .tooltip::before {
+  background: #d82129;
+  color: #ffffff;
+  border: solid 1px white;
+}
+
+.wrapper .yarn:hover,
+.wrapper .yarn:hover .tooltip,
+.wrapper .yarn:hover .tooltip::before {
+  background: #298fbc;
   color: #ffffff;
   border: solid 1px white;
 }

@@ -19,6 +19,8 @@ import Firebase from "./Firebase.png";
 import Tools from "./logoTools.png";
 import GitHub from "./gitHub.png";
 import Postman from "./Postman.png";
+import Npm from "./npm.png";
+import Yarn from "./yarn.png";
 import styledComponents from "./styledComponents.png";
 
 export {
@@ -42,4 +44,6 @@ export {
   GitHub,
   Postman,
   styledComponents,
+  Npm,
+  Yarn,
 };
