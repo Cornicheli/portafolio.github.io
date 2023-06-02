@@ -1,5 +1,5 @@
 // front-end
-import LogoFront from "./LogoFront.png";
+import LogoFront from "./logoFront.png";
 import Html from "./html.png";
 import Css from "./css.png";
 import Javascript from "./javascript.png";
