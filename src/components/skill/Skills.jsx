@@ -31,7 +31,7 @@ export default function Skills() {
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
-            <img className="icon-skill" src={LogoFront} alt="Logo Front-End" />
+            <img className="icon-skill" src={LogoFront} alt="logo front" />
           </div>
           <h3 className="title-skill-logo">Front End</h3>
           <div className="ctn-skill-card">
