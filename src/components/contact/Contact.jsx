@@ -6,7 +6,7 @@ export default function contact() {
   return (
     <div className="ctn-contact" id="contact">
       <div className="ctn-title-contact">
-        <h1 className="title-contact">My Social Networks</h1>
+        <h1 className="title-contact">Contáctame y hablemos ✉️</h1>
       </div>
       <div className="ctn-btn-contact">
         <div className="ctn-contact-redes">

@@ -20,6 +20,9 @@ import {
   Tools,
   Npm,
   Yarn,
+  Tailwind,
+  Jira,
+  Slack,
 } from "../../assets/icon";
 
 export default function Skills() {
@@ -27,7 +30,7 @@ export default function Skills() {
     <>
       <div className="cnt-skills" id="skill">
         <div className="ctn-title-skill">
-          <h1 className="title-skill">My skills as a fullstack developer</h1>
+          <h1 className="title-skill">Lenguajes, frameworks y librerías con los que trabaje</h1>
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">
@@ -74,6 +77,19 @@ export default function Skills() {
                     <img
                       className="icon-skill-card"
                       src={Bootstrap}
+                      alt="Bootstrap"
+                    />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon tailwind">
+                <span className="tooltip">Tailwind</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src={Tailwind}
                       alt="Bootstrap"
                     />
                   </i>
@@ -214,6 +230,32 @@ export default function Skills() {
                 <span>
                   <i className="ctn-icon-skill-card">
                     <img className="icon-skill-card" src={Yarn} alt="Yarn" />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon jira">
+                <span className="tooltip">Jira</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src={Jira}
+                      alt="Jira"
+                    />
+                  </i>
+                </span>
+              </li>
+
+              <li className="icon slack">
+                <span className="tooltip">Slack</span>
+                <span>
+                  <i className="ctn-icon-skill-card">
+                    <img
+                      className="icon-skill-card"
+                      src={Slack}
+                      alt="Slack"
+                    />
                   </i>
                 </span>
               </li>

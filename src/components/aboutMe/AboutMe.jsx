@@ -9,15 +9,10 @@ export default function AboutMe() {
         <Slide left>
           <div className="ctn-text-aboutme">
             <p className="text-aboutme">
-              ¿ About Me ? I am Gabriel Cornide <br />
-              Hi, Welcome to my profile, who am I? FullStack MERN Developer, I
-              am passionate about technology and programming languages, as well
-              as the IT world. Along with the ability to develop scalable web
-              and mobile projects, personal and group. I did several jobs for
-              clients and I was trained in an intensive bootcamp in +800 hs of
-              Full-Stack JavaScript development course. <br />
+              ¡Hola! Soy Gabriel Cornide, <br />
+              Bienvenida/o a mi portfolio. Soy un desarrollador FullStack MERN, con un enfoque especializado en el front-end. Me apasionan las tecnologías de la computación y el mundo de la IT. Además, tengo experiencia en el desarrollo de proyectos móviles tanto personales como para distintas start-ups. He trabajado como freelancer en diversos proyectos y mi formación incluye un bootcamp intensivo de desarrollo Full-Stack JavaScript. Actualmente, sigo formándome y aprendiendo de start-ups y de manera autodidacta.<br />
               <a className="link-aboutme" href="#contact">
-                → My Contact ←
+                → Mi contacto ←
               </a>
             </p>
           </div>

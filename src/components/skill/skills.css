@@ -4,20 +4,24 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
 .ctn-two-skill {
   display: flex;
   width: 65%;
 }
+
 .icon-skill-card {
   width: 100%;
   height: 60%;
 }
+
 .ctn-icon-skill-card {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
+
 .title-skill {
   font-size: 3.5rem;
   /* cursor: pointer; */
@@ -28,17 +32,20 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .ctn-skill-icon {
   display: flex;
   align-items: center;
-  width: 70%;
+  width: 80%;
   min-height: 10rem;
 }
+
 .title-skill-logo {
   font-size: 2.5rem;
   width: 20%;
   color: white;
 }
+
 .title-skill-logo-ft {
   font-size: 2.5rem;
   width: 20%;
@@ -49,10 +56,12 @@
   .ctn-skill-icon {
     flex-direction: column;
   }
+
   .title-skill-logo {
     width: 100%;
   }
 }
+
 .ctn-img-skill {
   display: flex;
   align-items: center;
@@ -60,6 +69,7 @@
   height: 7rem;
   margin: 0.7rem;
 }
+
 .icon-skill {
   width: 100%;
 }
@@ -77,6 +87,7 @@
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
+
 .ctn-skill-card {
   display: flex;
   justify-content: center;
@@ -84,6 +95,7 @@
   height: auto;
   margin-left: 1rem;
 }
+
 *:focus,
 *:active {
   outline: none !important;
@@ -181,6 +193,13 @@
   color: #ffffff;
 }
 
+.wrapper .tailwind:hover,
+.wrapper .tailwind:hover .tooltip,
+.wrapper .tailwind:hover .tooltip::before {
+  background: #1c5271;
+  color: #ffffff;
+}
+
 .wrapper .mongodb:hover,
 .wrapper .mongodb:hover .tooltip,
 .wrapper .mongodb:hover .tooltip::before {
@@ -194,30 +213,35 @@
   background: #2f2f2f;
   color: #ffffff;
 }
+
 .wrapper .react:hover,
 .wrapper .react:hover .tooltip,
 .wrapper .react:hover .tooltip::before {
   background: #52abc8;
   color: #ffffff;
 }
+
 .wrapper .nodejs:hover,
 .wrapper .nodejs:hover .tooltip,
 .wrapper .nodejs:hover .tooltip::before {
   background: #548e33;
   color: #ffffff;
 }
+
 .wrapper .firebase:hover,
 .wrapper .firebase:hover .tooltip,
 .wrapper .firebase:hover .tooltip::before {
   background: #039be5;
   color: #ffffff;
 }
+
 .wrapper .redux:hover,
 .wrapper .redux:hover .tooltip,
 .wrapper .redux:hover .tooltip::before {
   background: #996be4ed;
   color: #ffffff;
 }
+
 .wrapper .electron:hover,
 .wrapper .electron:hover .tooltip,
 .wrapper .electron:hover .tooltip::before {
@@ -231,12 +255,12 @@
   background: #1952a5;
   color: #ffffff;
 }
+
 .wrapper .gitHub:hover,
 .wrapper .gitHub:hover .tooltip,
 .wrapper .gitHub:hover .tooltip::before {
-  background: #000000;
+  background: #262626;
   color: #ffffff;
-  border: solid 1px white;
 }
 
 .wrapper .npm:hover,
@@ -244,7 +268,6 @@
 .wrapper .npm:hover .tooltip::before {
   background: #d82129;
   color: #ffffff;
-  border: solid 1px white;
 }
 
 .wrapper .yarn:hover,
@@ -252,14 +275,29 @@
 .wrapper .yarn:hover .tooltip::before {
   background: #298fbc;
   color: #ffffff;
-  border: solid 1px white;
 }
+
+.wrapper .jira:hover,
+.wrapper .jira:hover .tooltip,
+.wrapper .jira:hover .tooltip::before {
+  background: #091e42;
+  color: #ffffff;
+}
+
+.wrapper .slack:hover,
+.wrapper .slack:hover .tooltip,
+.wrapper .slack:hover .tooltip::before {
+  background: #4a154b;
+  color: #ffffff;
+}
+
 .wrapper .postman:hover,
 .wrapper .postman:hover .tooltip,
 .wrapper .postman:hover .tooltip::before {
   background: #f06732;
   color: #ffffff;
 }
+
 .wrapper .styled:hover,
 .wrapper .styled:hover .tooltip,
 .wrapper .styled:hover .tooltip::before {
@@ -268,6 +306,7 @@
 }
 
 .title-skill-logo {
+  text-align: center;
   background: linear-gradient(to right, blue, rgb(174, 31, 55));
   background-size: 200% 100%;
   background-position: -100%;

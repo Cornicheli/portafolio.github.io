@@ -25,6 +25,7 @@
   font-size: 1.7rem;
   font-family: "Anonymous Pro", monospace;
 }
+
 .link-aboutme:hover {
   color: black;
 }
@@ -36,6 +37,7 @@
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 15px;
 }
 
 .text-aboutme {
@@ -44,11 +46,12 @@
   font-weight: bold;
   font-family: "Anonymous Pro", monospace;
   font-size: 2rem;
-  line-height: 45px;
+  line-height: 50px;
   padding: 0.3rem;
   background-color: #ffffff61;
   backdrop-filter: blur(1px);
   border-radius: 18px;
+  padding: 5px;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,6 +61,7 @@
     margin: 0px 20px 0px 20px;
   }
 }
+
 @media screen and (max-width: 435px) {
   .text-aboutme {
     font-size: 1.3rem;

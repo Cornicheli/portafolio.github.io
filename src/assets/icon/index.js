@@ -4,6 +4,7 @@ import Html from "./html.png";
 import Css from "./css.png";
 import Javascript from "./javascript.png";
 import Bootstrap from "./bootstrap.png";
+import Tailwind from './tailwind.png'
 import ReactNative from "./react.png";
 import Redux from "./redux.png";
 import Electron from "./electron.png";
@@ -21,6 +22,8 @@ import GitHub from "./gitHub.png";
 import Postman from "./Postman.png";
 import Npm from "./npm.png";
 import Yarn from "./yarn.png";
+import Jira from './jira.png'
+import Slack from './slack.png'
 import styledComponents from "./styledComponents.png";
 
 export {
@@ -30,6 +33,7 @@ export {
   Css,
   Javascript,
   Bootstrap,
+  Tailwind,
   ReactNative,
   Redux,
   Electron,
@@ -46,4 +50,6 @@ export {
   styledComponents,
   Npm,
   Yarn,
+  Jira,
+  Slack,
 };
