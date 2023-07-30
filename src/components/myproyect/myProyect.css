@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
 hr {
   border-left: thick solid #000;
   height: 80%;
@@ -20,10 +21,12 @@ hr {
 .ctn-myproyect {
   height: 30vh;
 }
+
 .ctn-img-proyect {
   width: 100%;
   height: 100%;
 }
+
 .title-proyect {
   text-align: center;
   margin-top: 18px;

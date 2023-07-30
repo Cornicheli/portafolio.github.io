@@ -24,7 +24,8 @@
 
 .title-skill {
   font-size: 3.5rem;
-  /* cursor: pointer; */
+  text-align: center;
+  padding: 15px;
   background: linear-gradient(to right, blue, rgb(174, 31, 55));
   background-size: 200% 100%;
   background-position: -100%;
@@ -343,4 +344,9 @@
   .title-skill-logo {
     text-align: center;
   }
+}
+
+ol,
+ul {
+  padding-left: 0;
 }

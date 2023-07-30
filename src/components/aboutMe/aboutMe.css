@@ -56,15 +56,14 @@
 
 @media screen and (max-width: 768px) {
   .text-aboutme {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     transition-duration: 1s;
-    margin: 0px 20px 0px 20px;
+    line-height: 30px;
   }
 }
 
 @media screen and (max-width: 435px) {
   .text-aboutme {
     font-size: 1.3rem;
-    line-height: 30px;
   }
 }
