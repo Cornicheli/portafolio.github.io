@@ -8,9 +8,8 @@ import {
   Bootstrap,
   ReactNative,
   Redux,
-  Electron,
   MongoDB,
-  Express,
+  Next,
   NodeJS,
   Firebase,
   GitHub,
@@ -18,12 +17,13 @@ import {
   styledComponents,
   LogoBack,
   Tools,
-  Npm,
+  npm,
   Yarn,
   Tailwind,
   Jira,
   Slack,
 } from "../../assets/icon";
+import { Card } from "./components/Card";
 
 export default function Skills() {
   return (
@@ -40,97 +40,53 @@ export default function Skills() {
           <div className="ctn-skill-card">
             <ul className="wrapper">
               <li className="icon html">
-                <span className="tooltip">HTML</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" alt="html" src={Html} />
-                  </i>
-                </span>
+                <Card
+                  title={'HTML'}
+                  alt={'html'}
+                  image={Html}
+                />
               </li>
-
               <li className="icon css">
-                <span className="tooltip">CSS</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Css} alt="Css" />
-                  </i>
-                </span>
+                <Card
+                  title={'CSS'}
+                  alt={'css'}
+                  image={Css}
+                />
               </li>
-
               <li className="icon javascript">
-                <span className="tooltip">JavaScript</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Javascript}
-                      alt="Javascript"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'JavaScript'}
+                  alt={'javascript'}
+                  image={Javascript}
+                />
               </li>
-
               <li className="icon bootstrap">
-                <span className="tooltip">Bootstrap</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Bootstrap}
-                      alt="Bootstrap"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Bootstrap'}
+                  alt={'bootstrap'}
+                  image={Bootstrap}
+                />
               </li>
-
               <li className="icon tailwind">
-                <span className="tooltip">Tailwind</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Tailwind}
-                      alt="Bootstrap"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Tailwind'}
+                  alt={'tailwind'}
+                  image={Tailwind}
+                />
               </li>
-
               <li className="icon react">
-                <span className="tooltip">
-                  React <br /> React Native
-                </span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={ReactNative}
-                      alt="ReactNative"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'React React Native'}
+                  alt={'ReactNative'}
+                  image={ReactNative}
+                />
               </li>
-
               <li className="icon redux">
-                <span className="tooltip">Redux Toolkit</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Redux} alt="Redux" />
-                  </i>
-                </span>
-              </li>
-
-              <li className="icon electron">
-                <span className="tooltip">Electron Js</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Electron}
-                      alt="Electron"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Redux Toolkit'}
+                  alt={'Redux'}
+                  image={Redux}
+                />
               </li>
             </ul>
           </div>
@@ -142,56 +98,33 @@ export default function Skills() {
           <h3 className="title-skill-logo">Back End</h3>
           <div className="ctn-skill-card">
             <ul className="wrapper">
-              <li className="icon mongodb">
-                <span className="tooltip">Mongo DB</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={MongoDB}
-                      alt="MongoDB"
-                    />
-                  </i>
-                </span>
-              </li>
-
-              <li className="icon express">
-                <span className="tooltip">Express</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Express}
-                      alt="Express"
-                    />
-                  </i>
-                </span>
-              </li>
-
-              <li className="icon nodejs">
-                <span className="tooltip">Node JS</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={NodeJS}
-                      alt="NodeJS"
-                    />
-                  </i>
-                </span>
-              </li>
-
               <li className="icon firebase">
-                <span className="tooltip">FireBase</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Firebase}
-                      alt="Firebase"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'FireBase'}
+                  alt={'Firebase'}
+                  image={Firebase}
+                />
+              </li>
+              <li className="icon express">
+                <Card
+                  title={'Next JS'}
+                  alt={'next.js'}
+                  image={Next}
+                />
+              </li>
+              <li className="icon nodejs">
+                <Card
+                  title={'Node JS'}
+                  alt={'NodeJS'}
+                  image={NodeJS}
+                />
+              </li>
+              <li className="icon mongodb">
+                <Card
+                  title={'Mongo DB'}
+                  alt={'MongoDB'}
+                  image={MongoDB}
+                />
               </li>
             </ul>
           </div>
@@ -204,86 +137,55 @@ export default function Skills() {
           <div className="ctn-skill-card">
             <ul className="wrapper">
               <li className="icon gitHub">
-                <span className="tooltip">Git Hub</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={GitHub}
-                      alt="GitHub"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'GitHub'}
+                  alt={'gitHub'}
+                  image={GitHub}
+                />
               </li>
 
               <li className="icon npm">
-                <span className="tooltip">Npm</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Npm} alt="Npm" />
-                  </i>
-                </span>
+                <Card
+                  title={'Npm'}
+                  alt={'npm'}
+                  image={npm}
+                />
               </li>
 
               <li className="icon yarn">
-                <span className="tooltip">Yarn</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img className="icon-skill-card" src={Yarn} alt="Yarn" />
-                  </i>
-                </span>
+                <Card
+                  title={'Yarn'}
+                  alt={'yarn'}
+                  image={Yarn}
+                />
               </li>
-
               <li className="icon jira">
-                <span className="tooltip">Jira</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Jira}
-                      alt="Jira"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Jira'}
+                  alt={'jira'}
+                  image={Jira}
+                />
               </li>
-
               <li className="icon slack">
-                <span className="tooltip">Slack</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Slack}
-                      alt="Slack"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Slack'}
+                  alt={'Slack'}
+                  image={Slack}
+                />
               </li>
-
               <li className="icon postman">
-                <span className="tooltip">Postman</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={Postman}
-                      alt="Postman"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Postman'}
+                  alt={'postman'}
+                  image={Postman}
+                />
               </li>
-
               <li className="icon styled">
-                <span className="tooltip">Styled Components</span>
-                <span>
-                  <i className="ctn-icon-skill-card">
-                    <img
-                      className="icon-skill-card"
-                      src={styledComponents}
-                      alt="Styled Components"
-                    />
-                  </i>
-                </span>
+                <Card
+                  title={'Styled Components'}
+                  alt={'styledComponents'}
+                  image={styledComponents}
+                />
               </li>
             </ul>
           </div>

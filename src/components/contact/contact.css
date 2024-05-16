@@ -3,6 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
 .ctn-contact {
   display: flex;
   flex-direction: column;
@@ -10,11 +11,13 @@
   min-height: 65vh;
   background-color: #ffffff;
 }
+
 .ctn-title-contact {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .title-contact {
   text-align: center;
   margin-left: 15px;
@@ -24,9 +27,11 @@
   font-family: "Anonymous Pro", monospace;
   font-weight: 500;
 }
+
 .ctn-contact-redes {
   min-height: 25vh;
 }
+
 .ctn-contact-redes {
   display: flex;
   justify-content: space-evenly;
@@ -41,6 +46,7 @@
   height: 15rem;
   /* width: 100%; */
 }
+
 .img-contact {
   width: 17rem;
   height: 100%;
@@ -116,66 +122,4 @@
   100% {
     transform: translateY(0%);
   }
-}
-
-/* < ----- btn dowloand ----- > */
-
-.cta {
-  border: none;
-  background: none;
-  margin: 1rem;
-}
-
-.cta span {
-  padding-bottom: 7px;
-  letter-spacing: 4px;
-  font-size: 14px;
-  padding-right: 15px;
-  text-transform: uppercase;
-}
-
-.cta svg {
-  transform: translateX(-8px);
-  transition: all 0.3s ease;
-}
-
-.cta:hover svg {
-  transform: translateX(0);
-}
-
-.cta:active svg {
-  transform: scale(0.9);
-}
-
-.hover-underline-animation {
-  position: relative;
-  color: black;
-  padding-bottom: 20px;
-}
-
-.hover-underline-animation:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #000000;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.cta:hover .hover-underline-animation:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.ancor-aboutme {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-  backdrop-filter: blur(200px);
-  border-radius: 18px;
-  padding: 7px;
 }
