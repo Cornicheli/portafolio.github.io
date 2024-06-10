@@ -61,6 +61,10 @@
   .title-skill-logo {
     width: 100%;
   }
+
+  .title-skill {
+    font-size: 2.5rem;
+  }
 }
 
 .ctn-img-skill {

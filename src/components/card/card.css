@@ -128,4 +128,13 @@ img {
   width: 100%;
 }
 
-/* Estilos actual */
+@media screen and (max-width: 450px) {
+  .item-card {
+    width: 320px;
+    height: 250px;
+  }
+
+  .cardModal {
+    width: 100px;
+  }
+}

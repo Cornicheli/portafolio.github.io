@@ -9,8 +9,8 @@ export default function AboutMe() {
         <Slide left>
           <div className="ctn-text-aboutme">
             <p className="text-aboutme">
-              ¡Hola! Soy Gabriel Cornide, <br />
-              Bienvenida/o a mi portfolio. Soy un desarrollador FullStack MERN, con un enfoque especializado en el front-end. Me apasionan las tecnologías de la computación y el mundo de la IT. Además, tengo experiencia en el desarrollo de proyectos móviles tanto personales como para distintas start-ups. He trabajado como freelancer en diversos proyectos y mi formación incluye un bootcamp intensivo de desarrollo Full-Stack JavaScript. Actualmente, sigo formándome y aprendiendo de start-ups y de manera autodidacta.<br />
+              Hola Soy Gabriel Cornide,<br />
+              Un programador full-stack especializado, con un enfoque sólido en el desarrollo front-end y una inclinación hacia el aprendizaje proactivo. Disfruto aplicando la creatividad para ofrecer soluciones innovadoras que superen las expectativas, entregando resultados sobresalientes. Mi pasión por el desarrollo personal y el mundo IT se refleja en mi dedicación como autodidacta, donde he adoptado metodologías ágiles para gestionar eficientemente el tiempo y fomentar una colaboración efectiva en equipos. Estoy comprometido con la mejora continua y la excelencia en cada proyecto que emprendo.<br />
               <a className="link-aboutme" href="#contact">
                 → Mi contacto ←
               </a>

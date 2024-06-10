@@ -19,7 +19,6 @@ export const CardWeb: React.FC<CardWebProps> = (
       { image, title, subTitle, titleModal, imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven }
 ) => {
       const uniqueId = `${title}`;
-      console.log(uniqueId)
       return (
             <>
                   <div className="item-card" data-bs-toggle="modal" data-bs-target={`#${uniqueId}`}>

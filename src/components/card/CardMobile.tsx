@@ -19,7 +19,6 @@ export const CardMobile: React.FC<CardWebProps> = (
       { image, title, subTitle, titleModal, imageOne, imageTwo, imageThree, imageFour, imageFive, imageSix, imageSeven }
 ) => {
       const uniqueId = `${title}`;
-      console.log(uniqueId)
       return (
             <>
                   <div className="item-card-mobile" data-bs-toggle="modal" data-bs-target={`#${uniqueId}`}>
@@ -30,8 +29,8 @@ export const CardMobile: React.FC<CardWebProps> = (
                         </div>
                   </div>
                   <div className="modal fade ml-9 lg:ml-52 xl:ml-52" id={uniqueId} tab-index="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div className="modal-dialog modal-dialog-centered modal-lg">
-                              <div className="modal-content" style={{ width: '450px' }}>
+                        <div className="modal-dialog modal-dialog-centered modal-lg cardModal">
+                              <div className="modal-content cardModal" style={{ width: '450px' }}>
                                     <div className="modal-header">
                                           <h1 className="modal-title fs-4 text-dark text-center" id="exampleModalLabel">{titleModal}</h1>
                                           <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

@@ -84,7 +84,7 @@ export const MyProyect = () => {
       return (
             <div className="ctn-img-myproyect" id="proyect">
                   <div className="flex flex-col justify-center items-center">
-                        <h1 className="fs-1 text-black my-4">Desktop</h1>
+                        <h1 className="fs-1 text-black my-4">Desarrollo Web</h1>
                         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
                               <CardWeb
                                     image={bluerabbit0}
@@ -179,7 +179,7 @@ export const MyProyect = () => {
                               />
                         </div>
                         <div className="flex flex-col justify-center items-center my-4">
-                              <h1 className="fs-1 text-black my-4">Mobile</h1>
+                              <h1 className="fs-1 text-black my-4">Desarrollo Mobile</h1>
                               <div className="grid grid-cols-1 gap-14 md:grid-cols-2 lg:grid-cols-4">
                                     <CardMobile
                                           image={techforb12}

@@ -30,7 +30,9 @@ export default function Skills() {
     <>
       <div className="cnt-skills" id="skill">
         <div className="ctn-title-skill">
-          <h1 className="title-skill">Lenguajes, frameworks y librerías con los que trabaje</h1>
+          <h1 className="title-skill">Tecnologías usadas
+
+          </h1>
         </div>
         <div className="ctn-skill-icon">
           <div className="ctn-img-skill">

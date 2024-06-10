@@ -123,3 +123,15 @@
     transform: translateY(0%);
   }
 }
+
+@media (max-width: 768px) {
+  .title-contact {
+    font-size: 1.5rem;
+  }
+
+  .ctn-img-contact {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
